@@ -1,10 +1,74 @@
 /* commom style section */
-
+body {
+    font-family: 'Merriweather', serif;
+}
 
 /* header style section */
+.banner {
+    /* I google it; to set linear gradient with background image */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: auto;
+}
+
+.banner-content {
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+}
+
+.banner-greeting {
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 160px;
+    padding-bottom: 0;
+}
+
+.banner-topic {
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0 344px 180px 344px;
+}
 
 
 /* main style section */
+
+/* discount styles section */
+.discount {
+    text-align: center;
+}
+
+.off {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.deals {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0;
+}
+
+.catagories {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+
+/* midnight-party style section */
+.midnight-party {
+    background-image: url('../images/Vectorrr.png');
+    margin: 120px auto;
+}
 
 
 /* footer style section */
