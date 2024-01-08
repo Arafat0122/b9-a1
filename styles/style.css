@@ -151,4 +151,9 @@ body {
     text-transform: uppercase;
 }
 
+/* offer section styles */
+.offer{
+    display: flex;
+}
+
 /* footer style section */
