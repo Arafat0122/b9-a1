@@ -17,20 +17,19 @@ body {
 .banner-content {
     color: #FFF;
     text-align: center;
-    margin: auto;
+    padding: 177px 344px;
 }
 
 .banner-greeting {
     font-size: 32px;
     font-weight: 400;
-    padding-top: 160px;
-    padding-bottom: 0;
+    margin: 15px;
 }
 
 .banner-topic {
     font-size: 72px;
     font-weight: 900;
-    padding: 0 344px 180px 344px;
+    margin: 0;
 }
 
 
@@ -38,7 +37,11 @@ body {
 
 /* discount styles section */
 .discount {
+    background-color: #FFF;
+    width: 1320px;
+    margin: 120px auto;
     text-align: center;
+    padding: 0;
 }
 
 .off {
@@ -46,6 +49,7 @@ body {
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
+    gap: 0;
 }
 
 .deals {
@@ -53,7 +57,7 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .catagories {
@@ -61,8 +65,10 @@ body {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    padding-bottom: 0;
 }
+ .banner-2{
+    margin: 48px auto 0px;
+ }
 
 /* midnight-party style section */
 .midnight-party {
@@ -226,10 +232,8 @@ body {
 .holidays {
     text-align: center;
     width: 1320px;
-    height: 482px;
     align-items: center;
-    margin: 120px auto;
-    margin-bottom: 0;
+    margin: 120px auto 64px;
 
 }
 
@@ -272,10 +276,6 @@ body {
     gap: -19px;
 }
 
-.img2 {
-    
-}
-
 /* portfolio style section */
 
 .portfolio {
@@ -303,6 +303,7 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    width: 885px;
     margin-bottom: 48px;
 }
 
