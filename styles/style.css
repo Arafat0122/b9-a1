@@ -66,9 +66,10 @@ body {
     font-size: 48px;
     font-weight: 700;
 }
- .banner-2{
+
+.banner-2 {
     margin: 48px auto 0px;
- }
+}
 
 /* midnight-party style section */
 .midnight-party {
@@ -276,6 +277,13 @@ body {
     gap: -19px;
 }
 
+.img2 {
+    position: absolute;
+    left: 986px;
+    top: 3980px;
+    z-index: 1;
+}
+
 /* portfolio style section */
 
 .portfolio {
@@ -386,12 +394,14 @@ body {
 footer {
     background-color: #070211;
     height: 609px;
+    width: 1600px;
+    margin: 120px auto 0;
 }
 
 .footer-01 {
     display: flex;
     justify-content: space-between;
-    padding: 120px 275px 0 250px;
+    padding: 120px 145px 0 140px;
     margin: auto;
 }
 
@@ -422,7 +432,7 @@ footer {
 .footer-03 {
     display: flex;
     justify-content: space-between;
-    padding: 0 275px;
+    padding: 0 140px;
     /* margin: auto; */
 }
 
