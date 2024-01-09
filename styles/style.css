@@ -194,7 +194,7 @@ body {
 .ellipse {
     border-radius: 463px;
     border: 15px solid #F00;
-    padding: 49px;
+    padding: 30px;
     margin-right: 70px;
 }
 
@@ -229,6 +229,7 @@ body {
     height: 482px;
     align-items: center;
     margin: 120px auto;
+    margin-bottom: 0;
 
 }
 
@@ -241,6 +242,7 @@ body {
 
 .holidays-sales {
     color: #070211;
+    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
@@ -249,7 +251,6 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 500;
-    line-height: 32px;
 }
 
 .color-red {
@@ -257,14 +258,22 @@ body {
 }
 
 /* holidays-images style section */
-
 .holidays-images {
-    background-color: rgb(0, 0, 0);
+    background-color: #FFF;
+    height: 662px;
     width: 1320px;
-    height: 960px;
-    align-items: center;
-    text-align: center;
-    margin: 120px auto;
+    margin: 0px auto;
+}
+
+.cols-img {
+    background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom center, top right;
+    gap: -19px;
+}
+
+.img2 {
+    
 }
 
 /* portfolio style section */
@@ -312,9 +321,113 @@ body {
     padding: 0%;
 }
 
+.subscribe img {
+    margin: 80px 585px 40px 585px;
+}
+
+.subscribe-newsletter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.newsletter-text {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
 
 .subscribe-btn {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-fld {
+    border-radius: 50px;
+    background: #FFF;
+    border-radius: 50px 0px 0px 50px;
+    border: 0;
+    width: 450px;
+    height: 12px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.sub-btn {
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    border: 0;
+    width: 210px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* footer style section */
+
+footer {
+    background-color: #070211;
+    height: 609px;
+}
+
+.footer-01 {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 275px 0 250px;
+    margin: auto;
+}
+
+.location {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-02 {
+    height: 160px;
+    text-align: center;
+}
+
+.footer-02 img {
+    margin: 48px 20px;
+}
+
+.footer-03 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 275px;
+    /* margin: auto; */
+}
+
+.footer-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
