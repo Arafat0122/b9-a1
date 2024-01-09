@@ -234,7 +234,7 @@ body {
     text-align: center;
     width: 1320px;
     align-items: center;
-    margin: 120px auto 64px;
+    margin: 120px auto 0px;
 
 }
 
@@ -265,24 +265,36 @@ body {
 /* holidays-images style section */
 .holidays-images {
     background-color: #FFF;
-    height: 662px;
+    height: 862px;
     width: 1320px;
     margin: 0px auto;
 }
 
-.cols-img {
-    background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-    background-position: bottom center, top right;
-    gap: -19px;
+
+
+.img1{
+    position: relative;
+    left: 0px;
+    top: 530px;
+}
+.img2{
+    position: relative;
+    left: 0px;
+    bottom: 140px;
 }
 
-.img2 {
-    position: absolute;
-    left: 986px;
-    top: 3980px;
-    z-index: 1;
+.img3{
+    position: relative;
+    left: 90px;
+    bottom: 365px;
 }
+
+.img4 {
+    position: relative;
+    left: 700px;
+    bottom: 700px;
+}
+
 
 /* portfolio style section */
 
@@ -290,7 +302,7 @@ body {
     width: 1320px;
     height: 1134px;
     align-items: center;
-    margin: 120px auto;
+    margin: 0px auto;
 }
 
 .gift {
@@ -394,8 +406,8 @@ body {
 footer {
     background-color: #070211;
     height: 609px;
-    width: 1600px;
-    margin: 120px auto 0;
+    /* width: 1400px; */
+    margin: 0 auto ;
 }
 
 .footer-01 {
@@ -433,7 +445,6 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 0 140px;
-    /* margin: auto; */
 }
 
 .footer-text {
